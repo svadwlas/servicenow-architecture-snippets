@@ -1,0 +1,20 @@
+{
+  "flow": {
+    "name": "Auto-Assign Incident by Category",
+    "description": "Automatically assigns incidents to support groups based on category",
+    "steps": [
+      {
+        "type": "Trigger",
+        "event": "Incident Created"
+      },
+      {
+        "type": "Condition",
+        "if": "category == 'Network'"
+      },
+      {
+        "type": "Action",
+        "setAssignmentGroup": "Network Support"
+      }
+    ]
+  }
+}
