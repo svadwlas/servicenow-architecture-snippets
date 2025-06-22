@@ -24,9 +24,9 @@ These examples demonstrate:
 
 ## 👤 Author
 
-Created by **Shatrugna Vad**  
+Created by **Sha Vadwalas**  
 Enterprise Architect | ServiceNow | Cloud | Automation | Data Strategy  
-[LinkedIn](https://www.linkedin.com/in/your-link-here)
+[LinkedIn]([https://www.linkedin.com/in/your-link-here](https://www.linkedin.com/in/sha-v-0557a118/))
 
 ## 📜 License
 
