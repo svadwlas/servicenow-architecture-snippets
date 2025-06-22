@@ -1,0 +1,7 @@
+graph TD
+  User[User Portal] --> ITSM[ServiceNow ITSM]
+  MonitoringTool[Monitoring System] --> ITOM[ServiceNow ITOM]
+  ITOM --> CMDB[CMDB]
+  ITSM -->|Creates| Incident
+  ITOM -->|Updates| CMDB
+  CI_CD[CI/CD Pipeline] --> ITSM
